@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    box-sizing: border-box;
+    background-image: url(../IMAGE/background-xanh-duong-scaled.jpg);
+}
+
+header {
+    height: auto;
+    /* background-color: aqua; */
+    position: relative;
+    height: 400px;
+}
+
+header img {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+
+header form {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+header form input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: gray;
+    box-shadow: 1px 2px 2px #fff;
+}
+
+header form ::-webkit-input-placeholder {
+    color: #fff;
+}
+
+header form button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: grey;
+    box-shadow: 1px 2px 2px #fff;
+    margin-left: 5px;
+}
+
+nav {
+    height: 150px;
+    position: relative;
+    /* background-color: blueviolet; */
+}
+
+nav img {
+    height: 100px;
+    width: 240px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+nav .menu {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    z-index: 5;
+}
+
+.menu>li {
+    float: left;
+    list-style: none;
+}
+
+.menu>li>a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: #fff;
+    width: 200px;
+    border-left: 2px solid black;
+    text-align: center;
+    height: 90px;
+    line-height: 90px;
+    font-weight: bold;
+}
+
+.sub-menu li {
+    list-style: none;
+}
+
+.sub-menu li a {
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    line-height: 50px;
+    width: 200px;
+    box-sizing: border-box;
+    margin-left: 1px;
+    background-color: #fff;
+    color: black;
+}
+
+.sub-menu {
+    margin-top: 1px;
+    display: none;
+}
+
+.menu li:hover .sub-menu {
+    display: block;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+section {
+    min-height: 800px;
+    position: relative;
+}
+
+section .choose {
+    width: 100%;
+    height: 100px;
+}
+
+section .col {
+    float: left;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+section .col {
+    width: 150px;
+    margin-left: 80px;
+}
+
+section .col i {
+    font-size: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 40px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, gray);
+}
+
+section .row {
+    height: 380px;
+}
+
+section .col label {
+    display: block;
+}
+
+.row-left {
+    width: 50%;
+    float: left;
+}
+
+.row-right {
+    width: 40%;
+    float: right;
+}
+
+.row-right-1 {
+    width: 50%;
+    float: left;
+    height: 210px;
+}
+
+.row-right-2 {
+    width: 50%;
+    float: right;
+    height: 210px;
+}
+
+footer {
+    height: 150px;
+}
+
+.col-sm-3 img {
+    height: 350px;
+    width: 350px;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.col-sm-3 {
+    height: 400px;
+    width: 350px;
+    /* border: 1px solid black; */
+    transition: all 1.5;
+}
+
+.col-sm-3 img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.dongHoNamBanChay {
+    height: 500px;
+}
+
+.dongHoNuBanChay {
+    height: 500px;
+}
+
+.dongHoCapDoiBanChay {
+    height: 500px;
+}
+
+.dongHoTreEmBanChay {
+    height: 500px;
+}
+
+footer {
+    height: 450px;
+    color: #fff;
+    position: relative;
+    background-color: chocolate;
+}
+
+span {
+    color: red;
+}
+
+section label {
+    color: yellow;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 130px;
+    font-size: 25px;
+}
+
+#mua label {
+    font-weight: bold;
+}

@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang-Nam</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/Trang_Chu.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.1.1-web/css/all.css">
+    <script src="../JS/jquery-3.6.0.min.js"></script>
+    <script src="../JS/bootstrap.min.js"></script>
+    <script src="../JS/PhamVanHau.js"></script>
+    <script src="../JS/DatMua2.js"></script>
+    <script src="../JS/baohanh.js"></script>
+    <script src="../JS/slideBanner.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <img src="../IMAGE/banner-trang-chu-doxa.webp" id="bannerHeader" onload="bannerHeader()" alt="Phạm Văn Hậu" title="Phạm Văn Hậu">
+            <form action="">
+                <input type="text" name="txtSearch" id="txtSearch" required placeholder="Nhập vào để tìm kiếm ...">
+                <button type="submit" class="btn btn-success ml-3"> <i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </header>
+        <nav>
+            <a href="../index.html">
+                <img src="../IMAGE/Logo-Rolex.jpg" alt="Phạm Văn Hậu" title="Phạm Văn Hậu">
+            </a>
+            <ul class="menu">
+                <li><a href="ThuongHieu.html">Thương hiệu</a>
+                    <ul class="sub-menu">
+                        <li><a href="Rolex.html">Rolex</a></li>
+                        <li><a href="Casio.html">Casio</a></li>
+                    </ul>
+                </li>
+                <li><a href="Nam.html">Nam</a>
+                </li>
+                <li><a href="Nu.html">Nữ</a>
+                </li>
+                <li><a href="CapDoi.html">Cặp đôi</a>
+                </li>
+
+                <li id="baoHanh"><a href="#">Bảo hành</a>
+
+                </li>
+                <li><a href="LienHe.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="dongHoNamBanChay mt-5" id="dongHoNamBanChay">
+                <h1 class="text-center" style="color: brown; font-weight: bold; text-transform: uppercase;">Đồng hồ Casio Nam bán chạy</h1>
+                <div class="row mt-5">
+                    <div class="col-sm-3">
+                        <img src="../IMAGE/casio1.png" alt="Casio1" title="Casio1" id="hinh1">
+
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="../IMAGE/casio2.png" alt="Casio2" title="Casio2" id="hinh2">
+
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="../IMAGE/casio3.jpg" alt="Casio3" title="Casio3" id="hinh3">
+
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="../IMAGE/casio4.jpg" alt="Casio4" title="Casio4" id="hinh4">
+
+                    </div>
+                </div>
+            </div>
+            <div class="dongHoNuBanChay" id="dongHoNuBanChay">
+                <h1 class="text-center" style="color: brown; font-weight: bold; text-transform: uppercase;">Đồng hồ Omega Nam bán chạy</h1>
+                <div class="row mt-5">
+                    <div class="col-sm-3">
+                        <img src="../IMAGE/omega1.png" alt="omega1" title="omega1" id="hinh5">
+
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="../IMAGE/omega2.png" alt="omega2" title="omega2" id="hinh6">
+
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="../IMAGE/omega3.jpg" alt="omega3" title="omega3" id="hinh7">
+
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="../IMAGE/omega4.jpg" alt="omega4" title="omega4" id="hinh8">
+
+                    </div>
+                </div>
+            </div>
+            <div class="dongHoCapDoiBanChay" id="dongHoCapDoiBanChay">
+                <h1 class="text-center" style="color: brown; font-weight: bold; text-transform: uppercase;">Đồng hồ Rolex Nam bán chạy</h1>
+                <div class="row mt-5">
+                    <div class="col-sm-3 mt-0">
+                        <img src="../IMAGE/rolex1.jpg" alt="rolex1" title="rolex1" id="hinh9">
+
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="../IMAGE/rolex2.jpg" alt="rolex2" title="rolex2" id="hinh10">
+
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="../IMAGE/rolex3.jpg" alt="rolex3" title="rolex3" id="hinh11">
+
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="../IMAGE/rolex4.jpg" alt="rolex4" title="rolex4" id="hinh12">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div style=" position: absolute; top: 150px; left: 150px;">
+                <h6 style="text-transform: uppercase; font-weight: bold;">Công ty TNHH đồng hồ thời trang phạm văn hậu</h6>
+                <p>Email: phamvanhau692002vip@gmail.com</p>
+                <p>Điện thoại: 0375684441 </p>
+                <p>Địa chỉ: 90/18 Trần Bá Gia, Phường 5, Quận Gò Vấp, TP.HCM</p>
+            </div>
+            <div style="position: absolute; top: 150px; right: 350px; text-align: justify; font-weight: bold;">
+                <p>Chất lượng sản phẩm tốt 100%</p>
+                <p>Bảo hành 10 năm</p>
+                <p>Thông tin liên hệ: 0375684441</p>
+            </div>
+        </footer>
+    </div>
+    <!-- Hinh 1 -->
+    <div class="modal fade" id="Hinh1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center">Thông tin sản phẩm</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img src="../IMAGE/casio1.png" alt="Casio1" title="Casio1" id="hinh1" width="300px" height="300px">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>Đối tượng sử dụng: Nữ</p>
+                            <p>Đường kính mặt: 34mm</p>
+                            <p>Chất liệu mặt kính: Kính khoáng Mineral</p>
+                            <p>Chất liệu dây: Da tổng hợp</p>
+                            <p>Bộ máy: Pin (Quartz)</p>
+                            <p>Chống nước: 3 ATM - Rửa tay, đi mưa</p>
+                            <p>Thương hiệu: Nhật Bản</p>
+                            <p>Hãng: CASIO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="btnMua1">Mua</button>
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hinh 2 -->
+    <div class="modal fade" id="Hinh2" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center">Thông tin sản phẩm</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img src="../IMAGE/casio2.png" alt="Casio2" title="Casio2" width="300px" height="300px">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>Đối tượng sử dụng: Nữ</p>
+                            <p>Đường kính mặt: 34mm</p>
+                            <p>Chất liệu mặt kính: Kính khoáng Mineral</p>
+                            <p>Chất liệu dây: Da tổng hợp</p>
+                            <p>Bộ máy: Pin (Quartz)</p>
+                            <p>Chống nước: 3 ATM - Rửa tay, đi mưa</p>
+                            <p>Thương hiệu: Nhật Bản</p>
+                            <p>Hãng: CASIO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="btnMua2">Mua</button>
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hinh 3 -->
+    <div class="modal fade" id="Hinh3" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center">Thông tin sản phẩm</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img src="../IMAGE/casio3.jpg" alt="Casio3" title="Casio3" width="300px" height="300px">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>Đối tượng sử dụng: Nữ</p>
+                            <p>Đường kính mặt: 34mm</p>
+                            <p>Chất liệu mặt kính: Kính khoáng Mineral</p>
+                            <p>Chất liệu dây: Da tổng hợp</p>
+                            <p>Bộ máy: Pin (Quartz)</p>
+                            <p>Chống nước: 3 ATM - Rửa tay, đi mưa</p>
+                            <p>Thương hiệu: Nhật Bản</p>
+                            <p>Hãng: CASIO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="btnMua3">Mua</button>
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hinh 4 -->
+    <div class="modal fade" id="Hinh4" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title">Thông tin sản phẩm</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img src="../IMAGE/casio4.jpg" alt="Casio4" title="Casio4" width="300px" height="300px">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>Đối tượng sử dụng: Nữ</p>
+                            <p>Đường kính mặt: 34mm</p>
+                            <p>Chất liệu mặt kính: Kính khoáng Mineral</p>
+                            <p>Chất liệu dây: Da tổng hợp</p>
+                            <p>Bộ máy: Pin (Quartz)</p>
+                            <p>Chống nước: 3 ATM - Rửa tay, đi mưa</p>
+                            <p>Thương hiệu: Nhật Bản</p>
+                            <p>Hãng: CASIO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="btnMua4">Mua</button>
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hinh 5 -->
+    <div class="modal fade" id="Hinh5" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title">Thông tin sản phẩm</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img src="../IMAGE/omega1.png" alt="omega1" title="omega1" width="300px" height="300px">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>Đối tượng sử dụng: Nữ</p>
+                            <p>Đường kính mặt: 34mm</p>
+                            <p>Chất liệu mặt kính: Kính khoáng Mineral</p>
+                            <p>Chất liệu dây: Da tổng hợp</p>
+                            <p>Bộ máy: Pin (Quartz)</p>
+                            <p>Chống nước: 3 ATM - Rửa tay, đi mưa</p>
+                            <p>Thương hiệu: Nhật Bản</p>
+                            <p>Hãng: CASIO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="btnMua5">Mua</button>
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hinh 6 -->
+    <div class="modal fade" id="Hinh6" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title">Thông tin sản phẩm</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img src="../IMAGE/omega2.png" alt="omega2" title="omega2" width="300px" height="300px">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>Đối tượng sử dụng: Nữ</p>
+                            <p>Đường kính mặt: 34mm</p>
+                            <p>Chất liệu mặt kính: Kính khoáng Mineral</p>
+                            <p>Chất liệu dây: Da tổng hợp</p>
+                            <p>Bộ máy: Pin (Quartz)</p>
+                            <p>Chống nước: 3 ATM - Rửa tay, đi mưa</p>
+                            <p>Thương hiệu: Nhật Bản</p>
+                            <p>Hãng: CASIO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="btnMua6">Mua</button>
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hinh  7-->
+    <div class="modal fade" id="Hinh7" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title">Thông tin sản phẩm</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img src="../IMAGE/omega3.jpg" alt="omega3" title="omega3" width="300px" height="300px">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>Đối tượng sử dụng: Nữ</p>
+                            <p>Đường kính mặt: 34mm</p>
+                            <p>Chất liệu mặt kính: Kính khoáng Mineral</p>
+                            <p>Chất liệu dây: Da tổng hợp</p>
+                            <p>Bộ máy: Pin (Quartz)</p>
+                            <p>Chống nước: 3 ATM - Rửa tay, đi mưa</p>
+                            <p>Thương hiệu: Nhật Bản</p>
+                            <p>Hãng: CASIO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="btnMua7">Mua</button>
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hinh 8 -->
+    <div class="modal fade" id="Hinh8" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title">Thông tin sản phẩm</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img src="../IMAGE/omega4.jpg" alt="omega4" title="omega4" width="300px" height="300px">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>Đối tượng sử dụng: Nữ</p>
+                            <p>Đường kính mặt: 34mm</p>
+                            <p>Chất liệu mặt kính: Kính khoáng Mineral</p>
+                            <p>Chất liệu dây: Da tổng hợp</p>
+                            <p>Bộ máy: Pin (Quartz)</p>
+                            <p>Chống nước: 3 ATM - Rửa tay, đi mưa</p>
+                            <p>Thương hiệu: Nhật Bản</p>
+                            <p>Hãng: CASIO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="btnMua8">Mua</button>
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hinh 9 -->
+    <div class="modal fade" id="Hinh9" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title">Thông tin sản phẩm</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img src="../IMAGE/rolex1.jpg" alt="rolex1" title="rolex1" width="300px" height="300px">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>Đối tượng sử dụng: Nữ</p>
+                            <p>Đường kính mặt: 34mm</p>
+                            <p>Chất liệu mặt kính: Kính khoáng Mineral</p>
+                            <p>Chất liệu dây: Da tổng hợp</p>
+                            <p>Bộ máy: Pin (Quartz)</p>
+                            <p>Chống nước: 3 ATM - Rửa tay, đi mưa</p>
+                            <p>Thương hiệu: Nhật Bản</p>
+                            <p>Hãng: CASIO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hinh 10 -->
+    <div class="modal fade" id="Hinh10" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title">Thông tin sản phẩm</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img src="../IMAGE/rolex2.jpg" alt="rolex2" title="rolex2" width="300px" height="300px">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>Đối tượng sử dụng: Nữ</p>
+                            <p>Đường kính mặt: 34mm</p>
+                            <p>Chất liệu mặt kính: Kính khoáng Mineral</p>
+                            <p>Chất liệu dây: Da tổng hợp</p>
+                            <p>Bộ máy: Pin (Quartz)</p>
+                            <p>Chống nước: 3 ATM - Rửa tay, đi mưa</p>
+                            <p>Thương hiệu: Nhật Bản</p>
+                            <p>Hãng: CASIO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hinh 11 -->
+    <div class="modal fade" id="Hinh11" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title">Thông tin sản phẩm</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img src="../IMAGE/rolex3.jpg" alt="rolex3" title="rolex3" width="300px" height="300px">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>Đối tượng sử dụng: Nữ</p>
+                            <p>Đường kính mặt: 34mm</p>
+                            <p>Chất liệu mặt kính: Kính khoáng Mineral</p>
+                            <p>Chất liệu dây: Da tổng hợp</p>
+                            <p>Bộ máy: Pin (Quartz)</p>
+                            <p>Chống nước: 3 ATM - Rửa tay, đi mưa</p>
+                            <p>Thương hiệu: Nhật Bản</p>
+                            <p>Hãng: CASIO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hinh 12 -->
+    <div class="modal fade" id="Hinh12" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title">Thông tin sản phẩm</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img src="../IMAGE/rolex4.jpg" alt="rolex4" title="rolex4" width="300px" height="300px">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>Đối tượng sử dụng: Nữ</p>
+                            <p>Đường kính mặt: 34mm</p>
+                            <p>Chất liệu mặt kính: Kính khoáng Mineral</p>
+                            <p>Chất liệu dây: Da tổng hợp</p>
+                            <p>Bộ máy: Pin (Quartz)</p>
+                            <p>Chống nước: 3 ATM - Rửa tay, đi mưa</p>
+                            <p>Thương hiệu: Nhật Bản</p>
+                            <p>Hãng: CASIO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hinh 13 -->
+    <div class="modal fade" id="Hinh13" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title">Thông tin sản phẩm</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img src="../IMAGE/casio5.jpg" alt="Casio5" title="Casio5" width="300px" height="300px">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>Đối tượng sử dụng: Nữ</p>
+                            <p>Đường kính mặt: 34mm</p>
+                            <p>Chất liệu mặt kính: Kính khoáng Mineral</p>
+                            <p>Chất liệu dây: Da tổng hợp</p>
+                            <p>Bộ máy: Pin (Quartz)</p>
+                            <p>Chống nước: 3 ATM - Rửa tay, đi mưa</p>
+                            <p>Thương hiệu: Nhật Bản</p>
+                            <p>Hãng: CASIO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hinh 14 -->
+    <div class="modal fade" id="Hinh14" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title">Thông tin sản phẩm</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img src="../IMAGE/casio6.jpg" alt="Casio6" title="Casio6" width="300px" height="300px">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>Đối tượng sử dụng: Nữ</p>
+                            <p>Đường kính mặt: 34mm</p>
+                            <p>Chất liệu mặt kính: Kính khoáng Mineral</p>
+                            <p>Chất liệu dây: Da tổng hợp</p>
+                            <p>Bộ máy: Pin (Quartz)</p>
+                            <p>Chống nước: 3 ATM - Rửa tay, đi mưa</p>
+                            <p>Thương hiệu: Nhật Bản</p>
+                            <p>Hãng: CASIO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hinh 15 -->
+    <div class="modal fade" id="Hinh15" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title">Thông tin sản phẩm</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img src="../IMAGE/casio7.jpg" alt="Casio7" title="Casio7" width="300px" height="300px">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>Đối tượng sử dụng: Nữ</p>
+                            <p>Đường kính mặt: 34mm</p>
+                            <p>Chất liệu mặt kính: Kính khoáng Mineral</p>
+                            <p>Chất liệu dây: Da tổng hợp</p>
+                            <p>Bộ máy: Pin (Quartz)</p>
+                            <p>Chống nước: 3 ATM - Rửa tay, đi mưa</p>
+                            <p>Thương hiệu: Nhật Bản</p>
+                            <p>Hãng: CASIO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hinh 16 -->
+    <div class="modal fade" id="Hinh16" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title">Thông tin sản phẩm</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img src="../IMAGE/casio8.jpg" alt="Casio8" title="Casio8" width="300px" height="300px">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>Đối tượng sử dụng: Nữ</p>
+                            <p>Đường kính mặt: 34mm</p>
+                            <p>Chất liệu mặt kính: Kính khoáng Mineral</p>
+                            <p>Chất liệu dây: Da tổng hợp</p>
+                            <p>Bộ máy: Pin (Quartz)</p>
+                            <p>Chống nước: 3 ATM - Rửa tay, đi mưa</p>
+                            <p>Thương hiệu: Nhật Bản</p>
+                            <p>Hãng: CASIO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal mua -->
+    <div class="modal fade" id="mua" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title" style="font-weight: bold; text-transform: uppercase;">Thông tin đặt mua</h2>
+                    <button type="button" class="close text-right ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="col-sm-12">
+                        <p id="thongBao" class="text-center" style="color: red;"></p>
+                    </div>
+                    <form action="" class="form-horizontal" role="form">
+                        <div class="row">
+                            <label for="" class="col-sm-4 text-right">Họ và Tên:</label>
+                            <div class="col-sm-8">
+                                <input type="text" name="txtHoTen" id="txtHoTen" class="form-control" required placeholder="Pham Van Hau">
+                                <span id="erHoTen">(*)</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="" class="col-sm-4 text-right">Email:</label>
+                            <div class="col-sm-8">
+                                <input type="email" name="txtEmail" id="txtEmail" class="form-control" required placeholder="phamvanhau@gmail.com">
+                                <span id="erEmail">(*)</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="" class="col-sm-4 text-right">Địa chỉ:</label>
+                            <div class="col-sm-8">
+                                <input type="text" name="txtDiaChi" id="txtDiaChi" class="form-control" required placeholder="103 Le Thanh Phuong">
+                                <span id="erDiaChi">(*)</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="" class="col-sm-4 text-right">Điện thoại:</label>
+                            <div class="col-sm-8">
+                                <input type="text" name="txtSoDienThoai" id="txtSoDienThoai" class="form-control" required placeholder="0123456789">
+                                <span id="erSoDienThoai">(*)</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="" class="col-sm-4 text-right">Số lượng</label>
+                            <div class="col-sm-8">
+                                <input type="text" name="txtSoLuong" id="txtSoLuong" required class="form-control" value="1">
+                                <span id="erSoLuong">(*)</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="" class="col-sm-4 text-right">Giá</label>
+                            <div class="col-sm-8">
+                                <input type="text" name="txtGia" id="txtGia" readonly class="form-control" value="5000000">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <label for="" class="col-sm-4 text-right">Thành tiền: </label>
+                            <div class="col-sm-8">
+                                <input type="text" name="txtThanhTien" id="txtThanhTien" readonly class="form-control" value="5000000">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <button type="button" class="btn btn-block btn-danger" id="btnDatMua">Đặt mua</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal bao hanh -->
+    <div class="modal fade" id="modal-BaoHanh" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Thông tin bảo hành</h4>
+                    <button class="close ml-5" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <h4 style="color: red; text-shadow: 0px 0px 4px yellow;">Bạn hãy để lại thông tin chúng tôi sẽ gọi điện tư vấn cho bạn sớm nhất. Cảm ơn!</h4>
+                        <span id="thongBaoo"></span>
+                    </div>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="" class="text-left">Họ và tên</label>
+                            <input type="text" name="txtHovaTen" id="txtHovaTen" class="form-control" required placeholder="Pham Van Hau">
+                            <span id="erHovaTen">(*)</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Số điện thoại</label>
+                            <input type="tel" name="txtSDT" id="txtSDT" required placeholder="0123456789" class="form-control">
+                            <span id="erSDT">(*)</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Email</label>
+                            <input type="email" id="txtEmaill" required placeholder="phamvanhau@gmail.com" class="form-control">
+                            <span id="erEmaill">(*)</span>
+                        </div>
+                        <button id="gui" type="button" class="btn btn-block btn-success">Gửi</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
